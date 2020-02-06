@@ -16,7 +16,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "lint": "eslint . -f node_modules/eslint-html-reporter/reporter.js -o report.html"
+    "lint": "eslint src/* -f node_modules/eslint-html-reporter/reporter.js -o report.html"
   },
   "eslintConfig": {
     "extends": "react-app"
